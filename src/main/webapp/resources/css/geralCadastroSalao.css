@@ -1,0 +1,160 @@
+/* FORMULARIO CADASTRO*/
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.page-header {
+	margin-top: -10%;
+	font-size: 18px;
+	background: rgb(245, 198, 220) none repeat scroll 0% 0%;
+	padding: 22px 25px;
+	border-radius: 5px 5px 0px 0px;
+	text-shadow: none;
+	text-align: center;
+	font-size: 35px;
+	text-shadow: none;
+	font-weight: bold;
+}
+
+.box_salao {
+	width: 100%;
+	padding-top: 5%;
+}
+
+.number {
+	background-color: rgb(208, 108, 154);
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+	border-radius: 100%;
+}
+
+.form_salao {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	border-radius: 5px;
+	max-width: 1000px;
+	width: 60%;
+	border: 2px solid rgb(206, 103, 151);
+	background-color: white;
+	font-weight: bold;
+	overflow: hidden
+}
+
+.form_salao fieldset {
+	/* border: 2px solid rgb(245, 198, 220);
+	border-radius: 5px;*/
+	padding: 3%;
+}
+
+.form_salao legend {
+	font-size: 20px;
+	font-style: normal;
+	font-variant: small-caps;
+	text-align: left;
+	border: none;
+	color: rgb(208, 108, 154);
+}
+
+.form_salao div label {
+	display: block;
+	font-size: small;
+	text-transform: capitalize;
+	margin-left: 80px;
+}
+
+.form_salao div input {
+	width: 75%;
+	margin-left: 80px;
+	margin-bottom: 30px;
+}
+
+.box_funcionario {
+	width: 70%;
+}
+
+.form_funcionario {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	margin-top: -4%;
+}
+
+.form_funcionario fieldset {
+	padding: 3%;
+}
+
+}
+.form_funcionario legend {
+	font-size: 20px;
+	font-style: normal;
+	font-variant: small-caps;
+	text-align: left;
+	border: none;
+	color: rgb(208, 108, 154);
+}
+
+.form_funcionario div label {
+	font-size: small;
+	text-transform: capitalize;
+	margin-left: 10%;
+}
+
+.form_funcionario div input {
+	width: 75%;
+	margin-left: 15%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%
+}
+
+tbody {
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+#salvar {
+	margin-top: 10%;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	background-color: rgb(206, 102, 150);
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 100%;
+	border: 1px solid rgb(210, 117, 159);
+	border-width: 1px 1px 3px;
+	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+	margin-bottom: 10px;
+}
+
+tr th {
+	text-align: center;
+	font-size: 15px;
+}
+
+/* modal funcionario*/
+.modal-dialog {
+	width: 50%;
+}
+
+.modal-title{
+	text-align: center;
+}

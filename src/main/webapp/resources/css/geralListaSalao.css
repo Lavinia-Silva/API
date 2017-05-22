@@ -1,0 +1,185 @@
+/* LISTA SALÃO*/
+#box_lista_salao {
+	margin: auto;
+	width: 60%;
+	padding: 5%;
+	box-shadow: 0px 2px 10px 0px #cccccc;
+	padding-top: initial;
+	margin-top: -3%;
+	background-color: white;
+}
+
+form {
+	border-radius: 5px;
+	max-width: 900px;
+	margin: 5% auto;
+	overflow: hidden;
+	border: 2px solid rgb(206, 103, 151);
+	background-color: white;
+	font-weight: bold;
+}
+
+fieldset legend {
+	margin-left: 5%;
+	color: rgb(208, 108, 154);
+}
+
+.form_salao div label {
+	display: block;
+	font-size: small;
+	text-transform: capitalize;
+	margin-left: 80px;
+}
+
+.form_salao div input {
+	width: 75%;
+	margin-left: 80px;
+}
+
+fieldset {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.page-header {
+	font-size: 18px;
+	background: rgb(245, 198, 220) none repeat scroll 0% 0%;
+	padding: 22px 25px;
+	border-radius: 5px 5px 0px 0px;
+	margin: auto;
+	text-shadow: none;
+	text-align: center;
+	font-size: 35px;
+	text-shadow: none;
+	font-weight: bold;
+	width: 100%;
+}
+
+#saloes thead {
+	background-color: rgb(245, 198, 220);
+}
+
+#saloes {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding-right: initial;
+	padding-top: initial;
+	border: 2px solid rgb(206, 103, 151);
+}
+
+.form_salao fieldset {
+	border: 2px solid rgb(245, 198, 220);
+	border-radius: 5px;
+	padding: 3%;
+	margin-top: 2%;
+}
+
+.number {
+	background-color: rgb(208, 108, 154);
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+	border-radius: 100%;
+}
+
+#saloes table {
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+#saloes table td {
+	height: 50px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+#saloes table td:hover {
+	background-color: #ffffff;
+	transition: background-color .5s ease-out, color .5s ease-out;
+}
+
+#saloes table td a {
+	text-decoration: none;
+	float: left;
+	width: 66.666667%;
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 5%;
+}
+
+#salao table td th {
+	font-size: 15px;
+}
+
+#funcs {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	border: 2px solid rgb(208, 108, 154);
+}
+
+#funcs ul {
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+#funcs ul li {
+	height: 50px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+#funcs ul li:hover {
+	background-color: #DCDCDC;
+	transition: background-color .5s ease-out, color .5s ease-out;
+}
+
+#funcs ul li a {
+	text-decoration: none;
+	float: left;
+	width: 66.666667%;
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 5%;
+	margin-top: 2%;
+}
+
+#funcs ul li .editar {
+	font-size: 16px;
+	width: 33.33%;
+	text-align: center;
+	vertical-align: top;
+}
+
+#funcs ul li .editar:hover {
+	background-color: #E6E6FA;
+	transition: background-color .5s ease-out, color .5s ease-out;
+}
+
+.modal-content {
+	width: 60%;
+	margin: auto;
+}
+
+#ul_funcs table{
+	margin-top: 2%;
+}
+
+td, th {
+	padding: 0;
+	font-size: 15px;
+}
